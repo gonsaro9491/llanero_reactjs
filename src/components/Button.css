@@ -1,5 +1,5 @@
 :root {
-    --primary: #ffffff;
+    --primary: #FF6B21;
 }
 
 .btn {
@@ -9,19 +9,29 @@
     border: none;
     cursor: pointer;
     white-space: nowrap;
+    text-transform: uppercase;
 }
 
 .btn--primary {
     background-color: var(--primary);
-    color: #3a3a3a;
+    color: #ffffff;
     border: 1px solid var(--primary);
+    box-shadow: 0 2px #ad4a17;
+
 }
 
 .btn--outline {
     background-color: transparent;
-    color: #ffffff;
+    color: var(--primary);
     padding: 8px 20px;
     border: 1px solid var(--primary);
+    transition: all 0.3s ease-out;
+}
+
+.btn--word{
+    background-color: transparent;
+    color: var(--primary);
+    padding: 8px 20px;
     transition: all 0.3s ease-out;
 }
 
@@ -50,7 +60,8 @@
 
 .btn--wide {
     padding: 12px 64px;
-    font-size: 20px;
+    font-size: 18px;
+    
 }
 
 .btn--large:hover,
@@ -62,19 +73,27 @@
 }
 
 .btn--wide:hover {
-    color: #fff;
-    background-color: #ff0946;
+    color: #FF6B21;
+    background-color: #ffffff;
     transition: all 0.2s ease-out;
+    box-shadow: none;
 }
 
-.blue {
-    background-color: #276fab;
-    color: #fff;
+.btn--word:hover{
+    background-color: transparent;
+    color: var(--primary);
+    transition: all 0.3s ease-out;
+    transform: scale(1.05);
+}
+
+.white {
+    background-color: #ffffff;
+    color: #FF6B21;
     border: none;
 }
 
-.red {
-    background-color: #ff0946;
+.orange {
+    background-color: #FF6B21;
     color: #fff;
     border: none;
 }
@@ -92,14 +111,9 @@
 }
 
 
-.green {
-    background-color: #25ce4a;
-    color: #fff;
+.tansparent {
+    background-color: transparent;
+    color: #FF6B21;
     border: none;
 
-}
-.green:hover {
-    background-color: #ffffff ;
-    color: #25ce4a;
-    border: none;
 }
