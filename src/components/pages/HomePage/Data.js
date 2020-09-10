@@ -11,3 +11,15 @@ export const homeObjOne = {
     logoBg: 'images/logoLlaneroBlack.svg',
     altLogo: 'Logo Llanero Sales'
 }
+
+export const homeObjTwo = {
+    lightBg: false,
+    lightText: true,
+    lightTextDesc: true, 
+    headline: '¿Quienes somos?',
+    description1: 'Somos un negocio de amigos, dedicado a la venta de accesorios para consentir a tu máquina, y también algunas motos revisadas, enchuladas y garantizadas.',
+    description2: 'Además, podrás personalizar tu máquina a tu gusto. Te  recomendamos que pases a ver nuestro taller.',
+    description3: 'Si sos un apasionado de los tatuajes como nosotros, también contamos con un studio.',
+    img: 'images/filtro.png',
+    alt: 'Filtro de Motocicleta'
+}
