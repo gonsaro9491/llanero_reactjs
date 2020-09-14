@@ -2,7 +2,6 @@ import React from 'react';
 import './ReviewSection.css';
 import { BiUserCircle } from 'react-icons/bi'
 import { BsArrowRight } from 'react-icons/bs'
-import { IconContext } from 'react-icons/lib';
 import {Link} from 'react-router-dom';
 import { Button } from './Button';
 
