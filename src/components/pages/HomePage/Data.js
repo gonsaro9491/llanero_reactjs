@@ -23,3 +23,7 @@ export const homeObjTwo = {
     img: 'images/filtro.png',
     alt: 'Filtro de Motocicleta'
 }
+
+export const homeObjThree = {
+    buttonReview: 'Ver más reseñas',
+}
