@@ -1,0 +1,133 @@
+.footer-container {
+    background-color: #3a3a3a;
+    opacity: 0.87;
+    padding: 1.5rem 0 1rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.divider{
+    height: 2px;
+    width: 90vw;
+    background-color: #fff;
+    border-radius: 2px;
+    opacity: 0.4;
+    margin-bottom: 1.25rem;
+}
+
+.footer-links {
+    width: 100%;
+    max-width: 90%;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-link-wrapper {
+    width: 25%;
+    height: 13rem;
+    margin-bottom: 1rem;
+    color: #fff;
+    font-size: 1rem;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    box-sizing: border-box;
+}
+
+.footer-link-description{
+    text-transform: none;
+    margin-top: 1.5rem;
+    font-size: .87rem;
+    opacity: .87;
+}
+
+.title-social{
+    margin-bottom: 1.5rem;
+    margin-top: 2rem;
+}
+
+.llanero-footer img{
+    /* width: 100%; */
+    height: 10rem;
+    margin-top: 2rem;
+}
+
+.mercadoLibre img{
+    width: 85%;
+    cursor: pointer;
+    margin: 0.5rem ;
+}
+
+
+.urbancustom-footer img{
+    height: 10rem;
+    margin-top: 2rem;
+}
+
+.mail-Logo{
+    margin-right: 1rem;
+}
+
+.mail-Logo a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.social-icon-link {
+    color: #fff;
+    font-size: 1.3rem;
+    border: #fff 1px solid;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0.5rem 0;
+}
+
+.social-icon-link:hover {
+    color: #3a3a3a;
+    background-color: #fff;
+    transition: all 0.6s;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.social-logo {
+    color: #fff;
+    justify-self: start;
+    margin-left: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.website-rights {
+    color: #fff;
+}
+
+
+/* -----------------------RESPONSIVE DESIGN------------------------- */
+@media screen and (max-width: 820px) {
+    .footer-links {
+        padding-top: 2rem;
+    }
+
+    .footer-link-wrapper {
+        flex-direction: column;
+    }
+
+
+}

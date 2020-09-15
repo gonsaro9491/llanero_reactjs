@@ -27,3 +27,13 @@ export const homeObjTwo = {
 export const homeObjThree = {
     buttonReview: 'Ver más reseñas',
 }
+
+export const footer = {
+    llaneroFooter: 'images/logoLlanero.svg', 
+    llaneroAlt: 'Llanero Logo', 
+    mercadoLibre: 'images/mercadoLibre.png',
+    urbanFooter: 'images/urbanCustom.svg', 
+    urbanAlt: 'Urban Custom Logo'
+
+    
+}
